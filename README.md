@@ -1,55 +1,57 @@
 ## Descrição
 
-O objetivo principal do site é permitir que professores criem login e possam criar e gerenciar diversos cursos de maneira simples, além de permitir os não cadastrados a visualização dos cursos.
+O objetivo principal do site é permitir que professores criem contas e possam criar e gerenciar diversos cursos de maneira simples, além de permitir que não cadastrados visualizem os cursos.
 
+## Prints das Telas
 
-## Prints das telas 
+![Imagem](https://github.com/Vinicius-Terra/mind-case-front/blob/main/imgs_to_read.md/1.png)
+![Imagem](https://github.com/Vinicius-Terra/mind-case-front/blob/main/imgs_to_read.md/2.png)
+![Imagem](https://github.com/Vinicius-Terra/mind-case-front/blob/main/imgs_to_read.md/3.png)
+![Imagem](https://github.com/Vinicius-Terra/mind-case-front/blob/main/imgs_to_read.md/4.png)
+![Imagem](https://github.com/Vinicius-Terra/mind-case-front/blob/main/imgs_to_read.md/5.png)
 
+## Recursos
 
+- **Registrar** - É possível se cadastrar;
+- **Entrar** - É possível fazer login;
+- **Visualizar** - Todos podem visualizar os cursos;
+- **Criar** - Como membro cadastrado, é possível criar um curso;
+- **Editar** - Como membro cadastrado, é possível editar um curso;
+- **Excluir** - Como membro cadastrado, é possível excluir um curso;
 
-## Features
-
-- `Sign Up` - É possivel se cadastrar;
-- `Sign In` - É possivel logar;
-- `Visualizar` - Todos podem visualizar os cursos;
-- `Criar` - Como membro cadastrado, é possível criar um cursos;
-- `Editar` - Como membro cadastrado, é possível editar um cursos;
-- `Deletar` - Como membro cadastrado, é possível deletar um cursos;
-
-
-## Construido com
+## Construído com
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-## Como rodar o projeto
+## Como Rodar o Projeto
 
-1. Clone o repositorio:
+1. Clone o repositório:
 
-    ```bash
+    ```
     git clone https://github.com/Vinicius-Terra/mind-case-front.git
     ```
 
-2. Entre no diretorio do projeto
+2. Entre no diretório do projeto:
 
-    ```bash
+    ```
     cd mind-case-front/
     ```
 
-3. Instale as dependencias
+3. Instale as dependências:
 
-    ```bash
+    ```
     npm install
     ```
 
-4. Configure a variavel de hambiente 
+4. Configure a variável de ambiente:
 
-    | Name                   | Type     |
+    | Nome                   | Tipo     |
     | :---------------       | :------- |
     | `REACT_APP_API_URL=`   | `string` |
 
-5. Rode o projeto e se divirta 
+5. Execute o projeto e divirta-se:
 
-    ```bash
+    ```
     npm run start
     ```
